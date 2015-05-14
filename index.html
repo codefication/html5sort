@@ -1,0 +1,91 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Draggable Popup</title>
+</head>
+<body>
+	<header>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="jquery.sortable.js"></script>
+    <script src="app.js"></script>
+	</header>
+  <div class="container">
+    <section>
+      <div class="row">
+        <h2>Sortable List</h2>
+        <ul class="sortable list">
+          <li>ONE</li>
+          <li>TWO</li>
+          <li>THREE</li>
+          <li>FOUR</li>
+          <li>FIVE</li>
+          <li>SIX</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <h2>Sortable Grid</h2>
+        <ul class="sortable grid">
+          <li>ONE</li>
+          <li>TWO</li>
+          <li>THREE</li>
+          <li>FOUR</li>
+          <li>FIVE</li>
+          <li>SIX</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <h2>Disabled Items</h2>
+        <ul class="exclude list">
+          <li>ONE</li>
+          <li>TWO</li>
+          <li>THREE</li>
+          <li class="disabled">FOUR</li>
+          <li class="disabled">FIVE</li>
+          <li class="disabled">SIX</li>      
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <h2>Sortable List With Handles</h2>
+        <ul class="handles list">
+          <li><span>::</span> ONE</li>
+          <li><span>::</span> TWO</li>
+          <li><span>::</span> THREE</li>
+          <li><span>::</span> FOUR</li>
+          <li><span>::</span> FIVE</li>
+          <li><span>::</span> SIX</li>
+        </ul>
+      </div>
+    </section>
+    <section id="connected">
+      <div class="row">
+        <h2>Connected Sortable Lists</h2>
+        <ul class="connected list">
+          <li>ONE</li>
+          <li>TWO</li>
+          <li>THREE</li>
+          <li>FOUR</li>
+          <li>FIVE</li>
+          <li>SIX</li>
+        </ul>
+        <ul class="connected list no2">
+          <li class="highlight">ONE</li>
+          <li class="highlight">TWO</li>
+          <li class="highlight">THREE</li>
+          <li class="highlight">FOUR</li>
+          <li class="highlight">FIVE</li>
+          <li class="highlight">SIX</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  </body>
+</html>
